@@ -14,3 +14,4 @@ saved_models/MLPClassifier
 saved_models/OneHotEncoder_binned
 saved_models/SVC
 classification_audio.ipynb
+*.ipynb
