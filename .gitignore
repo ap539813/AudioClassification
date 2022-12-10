@@ -1,3 +1,9 @@
 
 *.wav
 *.pyc
+saved_models/DecisionTreeRegressor
+saved_models/LinearRegression
+saved_models/OneHotEncoder
+saved_models/RandomForestRegressor(n_estimators=1
+saved_models/SVR
+saved_models/StandardScaler
