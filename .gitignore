@@ -7,3 +7,9 @@ saved_models/OneHotEncoder
 saved_models/RandomForestRegressor(n_estimators=1
 saved_models/SVR
 saved_models/StandardScaler
+saved_models/DecisionTreeClassifier
+saved_models/KNeighborsClassifier
+saved_models/LogisticRegression
+saved_models/MLPClassifier
+saved_models/OneHotEncoder_binned
+saved_models/SVC
