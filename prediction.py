@@ -4,6 +4,8 @@ from process_data import scale_data
 import streamlit as st
 
 from audiorecorder import audiorecorder
+# import speech_recognition as sr
+
 
 
 def make_prediction(model_path):
@@ -15,9 +17,17 @@ def make_prediction(model_path):
     if True:
         st.title("Audio Recorder")
         audio = audiorecorder("Click to record", "Recording click to stop...")
-        if len(audio) <= 64082:
+        # r = sr.Recognizer()
+        
+
+        # text = r.recognize_google(audio)
+        # print('Converting audio transcripts into text ...')
+        # st.write(text)
+        if len(audio) <= 0:
             pass
-        if len(audio) > 0:
+        elif (len(audio) <= 64082/2) and (len(audio) > 0):
+            st.warning('The audio was too short!!! Record again.')
+        else:
             # To play audio in frontend:
             st.audio(audio)
             
