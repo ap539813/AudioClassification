@@ -44,7 +44,7 @@ def make_prediction(model_path):
                 st.write(X.max())
                 pred = model.predict(X)[0]
 
-                st.success(f'The age of the speeker is close to: {pred}')
+                st.success(f'The age of the speeker is close to: {round(pred)}')
 
         
         
