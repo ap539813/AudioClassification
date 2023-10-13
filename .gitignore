@@ -15,3 +15,10 @@ saved_models/OneHotEncoder_binned
 saved_models/SVC
 classification_audio.ipynb
 *.ipynb
+saved_models/dict_unique_mci_category
+saved_models/dict_unique_mci_category_invert
+saved_models/LogisticRegression 2
+saved_models/DecisionTreeClassifier 2
+saved_models/LabelEncoder
+saved_models/OneHotEncoder 2
+saved_models/StandardScaler 2
