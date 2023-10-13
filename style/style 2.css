@@ -1,0 +1,65 @@
+body {
+    color: #fff;
+    background-color: #11A27B;
+    /* font-size: 40px; */
+}
+
+#MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+
+.stButton>button{
+    box-shadow: 0px 0px 15px 0px #c2291b;
+	background-color:#e65b59;
+	border-radius:21px;
+	border:1px solid #ab2718;
+	display:inline-block;
+	cursor:pointer;
+	color:#5c0b05;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:7px 58px;
+	text-decoration:none;
+    width: auto;
+    align-self: center;
+}
+
+.btn.btn-outline-secondary{
+    box-shadow: 0px 0px 15px 0px #c2291b;
+	background-color:#e65b59;
+	border-radius:21px;
+	border:1px solid #ab2718;
+	display:inline-block;
+	cursor:pointer;
+	color:#5c0b05;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:7px 58px;
+	text-decoration:none;
+    width: auto;
+    align-self: center;
+}
+
+.css-j5r0tf.e1tzin5v2 {
+    text-align: center;
+}
+.stButton>button:hover {
+	background-color:#ad1a07;
+    color:#5c0b05;
+    border:1px solid #ad1a07;
+}
+.stButton>button:active {
+	position:relative;
+	top:1px;
+}
+
+.btn.btn-outline-secondary:hover {
+	background-color:#ad1a07;
+    color:#5c0b05;
+    border:1px solid #ad1a07;
+}
+.btn.btn-outline-secondary:active {
+	position:relative;
+	top:1px;
+}
